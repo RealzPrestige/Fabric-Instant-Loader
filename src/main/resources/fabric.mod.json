@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "instant-loader",
+	"version": "1.0",
+	"name": "Instant Loader",
+	"description": "Instant Loader made by zPrestige_",
+	"license": "CC0-1.0",
+	"environment": "*",
+
+	"mixins": [
+		"instantloader.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.14.6",
+		"fabric": "*",
+		"minecraft": "1.19.x"
+	},
+
+	"suggests": {
+		"flamingo": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.zprestige.famous.rich.gang.instant.loader",
+  "compatibilityLevel": "JAVA_17",
+  "verbose": true,
+  "client": [
+    "MixinSplashOverlay"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
